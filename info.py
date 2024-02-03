@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'LazyPrincess')
 API_ID = int(environ.get('API_ID','15428219'))
 API_HASH = environ.get('API_HASH','0042e5b26181a1e95ca40a7f7c51eaa7')
-BOT_TOKEN = environ.get('BOT_TOKEN','5131979265:AAHqw4dBlu2oZ0ib34t5eVY_5-vjKD1Tp-s')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5131979265:AAHqw4dBlu2oZ0ib34t5eVY_5-vjKD1Tp-s')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
