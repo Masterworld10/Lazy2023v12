@@ -72,7 +72,7 @@ LAZY_RENAMERS = (lazy_renamers + ADMINS) if lazy_renamers else []
 # Only Give Value in LAZY_RENAMERS if you have enabled LAZY_MODE ----- !
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', "-1002016338740"))
 #   REQ_CHANNEL is for the logs of that content name which is not found in group -- !
-URL_MODE = is_enabled((environ.get("URL_MODE", "False"))
+URL_MODE = is_enabled((environ.get("URL_MODE", "False")), False)
 # Use True false in url mode => Set value true if you want shortlinks - else - use value False ----- !
 
 # URL Shortener
